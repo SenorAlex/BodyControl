@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1FDFF528FDAFB500095EDB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FDFF428FDAFB500095EDB /* MainTabBarController.swift */; };
+		FA1FDFFC28FDB6A400095EDB /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FDFFB28FDB6A400095EDB /* NewWorkoutViewController.swift */; };
+		FA1FDFFE28FEAA9F00095EDB /* DateAndRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FDFFD28FEAA9F00095EDB /* DateAndRepeatView.swift */; };
+		FA1FE00028FEC82200095EDB /* RepsOrTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FDFFF28FEC82200095EDB /* RepsOrTimer.swift */; };
+		FA30A91128F6E7850045D6ED /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30A91028F6E7850045D6ED /* WorkoutTableViewCell.swift */; };
+		FA30A91328F6EAB80045D6ED /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30A91228F6EAB80045D6ED /* UIStackView + Extensions.swift */; };
+		FA3B0B5128F86D7B0067DBF1 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B0B5028F86D7B0067DBF1 /* StatisticView.swift */; };
+		FA3CE02F28F4504B00995BEF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE02E28F4504B00995BEF /* CalendarView.swift */; };
+		FA3CE03128F48E3F00995BEF /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CE03028F48E3F00995BEF /* WeatherView.swift */; };
 		FA4AB04B28F427AA00DBC757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AB04A28F427AA00DBC757 /* AppDelegate.swift */; };
 		FA4AB04D28F427AA00DBC757 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AB04C28F427AA00DBC757 /* SceneDelegate.swift */; };
-		FA4AB04F28F427AA00DBC757 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AB04E28F427AA00DBC757 /* ViewController.swift */; };
-		FA4AB05228F427AA00DBC757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4AB05028F427AA00DBC757 /* Main.storyboard */; };
+		FA4AB04F28F427AA00DBC757 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AB04E28F427AA00DBC757 /* MainViewController.swift */; };
 		FA4AB05428F427AC00DBC757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4AB05328F427AC00DBC757 /* Assets.xcassets */; };
 		FA4AB05728F427AC00DBC757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4AB05528F427AC00DBC757 /* LaunchScreen.storyboard */; };
+		FA4D51E528F59159001E698D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4D51E328F59159001E698D /* Roboto-Medium.ttf */; };
+		FA4D51E628F59159001E698D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4D51E428F59159001E698D /* Roboto-Bold.ttf */; };
+		FA4D51EA28F5930F001E698D /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D51E928F5930F001E698D /* UIView + Extensions.swift */; };
+		FA4D51EC28F594D3001E698D /* UIFont + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D51EB28F594D3001E698D /* UIFont + Extensions.swift */; };
+		FA4D51EE28F5956A001E698D /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D51ED28F5956A001E698D /* UIColor + Extensions.swift */; };
+		FA4D51F128F5CF51001E698D /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D51F028F5CF51001E698D /* CalendarCollectionViewCell.swift */; };
+		FA4D51F328F5EAE8001E698D /* YourNameTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D51F228F5EAE8001E698D /* YourNameTableView.swift */; };
+		FA8AB35C28F96EF3001A3C85 /* ExercisesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB35B28F96EF3001A3C85 /* ExercisesTable.swift */; };
+		FA8AB35E28F9784C001A3C85 /* StatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB35D28F9784C001A3C85 /* StatisticTableViewCell.swift */; };
+		FA8AB36028F97972001A3C85 /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB35F28F97972001A3C85 /* UILabel + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1FDFF428FDAFB500095EDB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FA1FDFFB28FDB6A400095EDB /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
+		FA1FDFFD28FEAA9F00095EDB /* DateAndRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndRepeatView.swift; sourceTree = "<group>"; };
+		FA1FDFFF28FEC82200095EDB /* RepsOrTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsOrTimer.swift; sourceTree = "<group>"; };
+		FA30A91028F6E7850045D6ED /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		FA30A91228F6EAB80045D6ED /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		FA3B0B5028F86D7B0067DBF1 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		FA3CE02E28F4504B00995BEF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		FA3CE03028F48E3F00995BEF /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		FA4AB04728F427AA00DBC757 /* BodyControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4AB04A28F427AA00DBC757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA4AB04C28F427AA00DBC757 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA4AB04E28F427AA00DBC757 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA4AB05128F427AA00DBC757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4AB04E28F427AA00DBC757 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FA4AB05328F427AC00DBC757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4AB05628F427AC00DBC757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4AB05828F427AC00DBC757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4D51E328F59159001E698D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		FA4D51E428F59159001E698D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FA4D51E928F5930F001E698D /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		FA4D51EB28F594D3001E698D /* UIFont + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extensions.swift"; sourceTree = "<group>"; };
+		FA4D51ED28F5956A001E698D /* UIColor + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		FA4D51F028F5CF51001E698D /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA4D51F228F5EAE8001E698D /* YourNameTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameTableView.swift; sourceTree = "<group>"; };
+		FA8AB35B28F96EF3001A3C85 /* ExercisesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTable.swift; sourceTree = "<group>"; };
+		FA8AB35D28F9784C001A3C85 /* StatisticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCell.swift; sourceTree = "<group>"; };
+		FA8AB35F28F97972001A3C85 /* UILabel + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +73,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1FDFF328FDAF8E00095EDB /* NavigationModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FDFF428FDAFB500095EDB /* MainTabBarController.swift */,
+			);
+			path = NavigationModule;
+			sourceTree = "<group>";
+		};
+		FA1FDFF828FDB60900095EDB /* NewWorkoutModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FDFFA28FDB67900095EDB /* Controllers */,
+				FA1FDFF928FDB67100095EDB /* Views */,
+			);
+			path = NewWorkoutModule;
+			sourceTree = "<group>";
+		};
+		FA1FDFF928FDB67100095EDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FDFFD28FEAA9F00095EDB /* DateAndRepeatView.swift */,
+				FA1FDFFF28FEC82200095EDB /* RepsOrTimer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA1FDFFA28FDB67900095EDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FDFFB28FDB6A400095EDB /* NewWorkoutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA3B0B4F28F86D5D0067DBF1 /* StatisticsModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AB35A28F96E69001A3C85 /* Views */,
+				FA3B0B5028F86D7B0067DBF1 /* StatisticView.swift */,
+			);
+			path = StatisticsModule;
+			sourceTree = "<group>";
+		};
+		FA3CE02928F4496E00995BEF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA4AB04A28F427AA00DBC757 /* AppDelegate.swift */,
+				FA4AB04C28F427AA00DBC757 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA3CE02A28F4499500995BEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51E228F5910B001E698D /* Fonts */,
+				FA4AB05828F427AC00DBC757 /* Info.plist */,
+				FA4AB05528F427AC00DBC757 /* LaunchScreen.storyboard */,
+				FA4AB05328F427AC00DBC757 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA3CE02B28F449B300995BEF /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CE02D28F449D400995BEF /* Controllers */,
+				FA3CE02C28F449CC00995BEF /* Views */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		FA3CE02C28F449CC00995BEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51EF28F5CF34001E698D /* Cell */,
+				FA3CE02E28F4504B00995BEF /* CalendarView.swift */,
+				FA3CE03028F48E3F00995BEF /* WeatherView.swift */,
+				FA4D51F228F5EAE8001E698D /* YourNameTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA3CE02D28F449D400995BEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA4AB04E28F427AA00DBC757 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		FA4AB03E28F427AA00DBC757 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +183,62 @@
 		FA4AB04928F427AA00DBC757 /* BodyControl */ = {
 			isa = PBXGroup;
 			children = (
-				FA4AB04A28F427AA00DBC757 /* AppDelegate.swift */,
-				FA4AB04C28F427AA00DBC757 /* SceneDelegate.swift */,
-				FA4AB04E28F427AA00DBC757 /* ViewController.swift */,
-				FA4AB05028F427AA00DBC757 /* Main.storyboard */,
-				FA4AB05328F427AC00DBC757 /* Assets.xcassets */,
-				FA4AB05528F427AC00DBC757 /* LaunchScreen.storyboard */,
-				FA4AB05828F427AC00DBC757 /* Info.plist */,
+				FA3CE02928F4496E00995BEF /* Application */,
+				FA1FDFF328FDAF8E00095EDB /* NavigationModule */,
+				FA3CE02B28F449B300995BEF /* MainModule */,
+				FA1FDFF828FDB60900095EDB /* NewWorkoutModule */,
+				FA3B0B4F28F86D5D0067DBF1 /* StatisticsModule */,
+				FA4D51E728F592D0001E698D /* Extensions */,
+				FA3CE02A28F4499500995BEF /* Resources */,
 			);
 			path = BodyControl;
+			sourceTree = "<group>";
+		};
+		FA4D51E228F5910B001E698D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51E428F59159001E698D /* Roboto-Bold.ttf */,
+				FA4D51E328F59159001E698D /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA4D51E728F592D0001E698D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51E828F592E6001E698D /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA4D51E828F592E6001E698D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51ED28F5956A001E698D /* UIColor + Extensions.swift */,
+				FA4D51EB28F594D3001E698D /* UIFont + Extensions.swift */,
+				FA4D51E928F5930F001E698D /* UIView + Extensions.swift */,
+				FA30A91228F6EAB80045D6ED /* UIStackView + Extensions.swift */,
+				FA8AB35F28F97972001A3C85 /* UILabel + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FA4D51EF28F5CF34001E698D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D51F028F5CF51001E698D /* CalendarCollectionViewCell.swift */,
+				FA30A91028F6E7850045D6ED /* WorkoutTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA8AB35A28F96E69001A3C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AB35D28F9784C001A3C85 /* StatisticTableViewCell.swift */,
+				FA8AB35B28F96EF3001A3C85 /* ExercisesTable.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +301,8 @@
 			files = (
 				FA4AB05728F427AC00DBC757 /* LaunchScreen.storyboard in Resources */,
 				FA4AB05428F427AC00DBC757 /* Assets.xcassets in Resources */,
-				FA4AB05228F427AA00DBC757 /* Main.storyboard in Resources */,
+				FA4D51E628F59159001E698D /* Roboto-Bold.ttf in Resources */,
+				FA4D51E528F59159001E698D /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +313,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4AB04F28F427AA00DBC757 /* ViewController.swift in Sources */,
+				FA3CE03128F48E3F00995BEF /* WeatherView.swift in Sources */,
+				FA4D51F328F5EAE8001E698D /* YourNameTableView.swift in Sources */,
+				FA4D51EC28F594D3001E698D /* UIFont + Extensions.swift in Sources */,
+				FA4AB04F28F427AA00DBC757 /* MainViewController.swift in Sources */,
+				FA30A91128F6E7850045D6ED /* WorkoutTableViewCell.swift in Sources */,
 				FA4AB04B28F427AA00DBC757 /* AppDelegate.swift in Sources */,
+				FA3CE02F28F4504B00995BEF /* CalendarView.swift in Sources */,
+				FA30A91328F6EAB80045D6ED /* UIStackView + Extensions.swift in Sources */,
+				FA3B0B5128F86D7B0067DBF1 /* StatisticView.swift in Sources */,
+				FA4D51EE28F5956A001E698D /* UIColor + Extensions.swift in Sources */,
+				FA4D51F128F5CF51001E698D /* CalendarCollectionViewCell.swift in Sources */,
+				FA8AB35E28F9784C001A3C85 /* StatisticTableViewCell.swift in Sources */,
+				FA1FE00028FEC82200095EDB /* RepsOrTimer.swift in Sources */,
+				FA4D51EA28F5930F001E698D /* UIView + Extensions.swift in Sources */,
+				FA8AB35C28F96EF3001A3C85 /* ExercisesTable.swift in Sources */,
+				FA8AB36028F97972001A3C85 /* UILabel + Extensions.swift in Sources */,
+				FA1FDFFC28FDB6A400095EDB /* NewWorkoutViewController.swift in Sources */,
 				FA4AB04D28F427AA00DBC757 /* SceneDelegate.swift in Sources */,
+				FA1FDFFE28FEAA9F00095EDB /* DateAndRepeatView.swift in Sources */,
+				FA1FDFF528FDAFB500095EDB /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA4AB05028F427AA00DBC757 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA4AB05128F427AA00DBC757 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA4AB05528F427AC00DBC757 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +473,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R25AD4MYJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BodyControl/Info.plist;
+				INFOPLIST_FILE = BodyControl/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = senorAlex.BodyControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +504,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R25AD4MYJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BodyControl/Info.plist;
+				INFOPLIST_FILE = BodyControl/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +517,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = senorAlex.BodyControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
