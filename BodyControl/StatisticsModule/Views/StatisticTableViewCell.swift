@@ -57,7 +57,7 @@ class StatisticTableViewCell: UITableViewCell {
         
         addSubview(differenceLabel)
         addSubview(nameLabel)
-        stackView = UIStackView(arrangedSubviews: [beforeLabel, nowLabel],
+        stackView = UIStackView(arrangedSubviews: [beforeLabel, nowLabel], axis: .horizontal,
                                 spacing: 10)
         addSubview(stackView)
         addSubview(lineView)

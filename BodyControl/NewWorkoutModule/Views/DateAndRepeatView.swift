@@ -12,7 +12,7 @@ class DateAndRepeatView: UIView {
     private let dateLabel: UILabel = {
         let label = UILabel()
         label.text = "Date"
-        label.font = .robotoMedium16()
+        label.font = .robotoMedium18()
         label.tintColor = .specialGray
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -21,7 +21,7 @@ class DateAndRepeatView: UIView {
     private let repeatLabel: UILabel = {
         let label = UILabel()
         label.text = "Repeat every 7 days"
-        label.font = .robotoMedium16()
+        label.font = .robotoMedium18()
         label.tintColor = .specialGray
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -65,10 +65,15 @@ class DateAndRepeatView: UIView {
         addSubview(datePicker)
         addSubview(testSwitch)
     }
+    
+    public func getDataAndRepeat() -> (date: Date, repeat: Bool) {
+        (datePicker.date, testSwitch.isOn)
+    }
 }
 
 extension DateAndRepeatView {
     private func setConstrains() {
+        
         NSLayoutConstraint.activate([
             
             dateLabel.topAnchor.constraint(equalTo: topAnchor, constant: 10),

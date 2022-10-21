@@ -96,7 +96,7 @@ class WorkoutTableViewCell: UITableViewCell {
         workoutBackgroundView.addSubview(workoutImageView)
         addSubview(workoutNameLabel)
 
-        labelsStackView = UIStackView(arrangedSubviews: [workoutRepsLabel, workoutSetsLabel],
+        labelsStackView = UIStackView(arrangedSubviews: [workoutRepsLabel, workoutSetsLabel], axis: .horizontal,
                                       spacing: 10)
         
         addSubview(labelsStackView)
